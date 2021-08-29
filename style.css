@@ -5,7 +5,8 @@
 .button {
     width: 200px;
     height: 100px;
-    background-color: cyan;
+    background-color: rgb(239, 117, 255);
+    font-size: 36px;
 }
 
 .button_container {
