@@ -1,2 +1,2 @@
-# PPT
-Piedra, papel, tijera
+# RPS
+Rock, paper, scissors
