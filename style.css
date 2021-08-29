@@ -1,0 +1,17 @@
+.body {
+    min-height: 100vh;
+}
+
+.button {
+    width: 200px;
+    height: 100px;
+    background-color: cyan;
+}
+
+.button_container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
