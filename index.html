@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
-    <div id="cpu"></div>
-    <div class="button_container"><button class="button" onclick="game();">try me</button></div>
-    <p id="result"></p>
+    <div class="cpu_base" id="cpu"></div>
+    
+    <div class="button"><button id="ROCK" class="button_base" onclick="game('piedra');">PIEDRA</button></div>
+    <div class="button"><button id="PAPER" class="button_base" onclick="game('papel');">PAPEL</button></div>
+    <div class="button"><button id="SCISSORS" class="button_base" onclick="game('tijera');">TIJERA</button></div>
+ 
+
+    <p id="result" class="Results"></p>
 
     
     <script src="js.js">
