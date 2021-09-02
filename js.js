@@ -1,9 +1,10 @@
-function game() {
-    var items = ["Piedra", "Papel", "Tijera"];
+function game(ammo) {
+    
+    var items = ["piedra", "papel", "tijera"];
     var cpu = items[Math.floor(Math.random()*items.length)];
     document.getElementById("cpu").innerHTML = cpu;
-    var pick = prompt("elige tu arma");
-    
+    var pick = ammo;
+     
 
     if (pick == cpu.toLowerCase()) {
         document.getElementById("result").innerHTML =  "empate!";
@@ -17,14 +18,17 @@ function game() {
         (pick == "tijera" && cpu == items[0]) {
             document.getElementById("result").innerHTML = "La cpu gana";
     } else if 
-    (pick == "papel" && cpu == items[0]) {
+        (pick == "papel" && cpu == items[0]) {
         document.getElementById("result").innerHTML = "Has ganado!";
     } else if
-    (pick ==  "tijera" && cpu == items[1]) {
+        (pick ==  "tijera" && cpu == items[1]) {
         document.getElementById("result").innerHTML = "Has ganado!";
     } else if 
-    (pick == "piedra" && cpu == items[2]) {
+        (pick == "piedra" && cpu == items[2]) {
         document.getElementById("result").innerHTML = "Has ganado!";
     } 
 }
+
+
+
 
